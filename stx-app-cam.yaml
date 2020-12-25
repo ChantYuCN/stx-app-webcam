@@ -1,0 +1,21 @@
+appName: stx-webcam
+namespace: stx-app-webcam
+version: 1.0
+chart:
+- name: stx-app-webcam
+  path: https://github.com/ChantYuCN/stx-app-webcam.git 
+  subpath: ./webcam
+  label:
+  waitLabelKey: deployment 
+chartGroup:
+- name: chartgroup1
+  description: "webcam rtsp direct to web page"
+  sequenced: true
+  chart_group:
+  - stx-webcam
+manifest:
+  name: stx-app-manifest
+  releasePrefix: v1 
+  chart_groups:
+  - chartgroup1
+
