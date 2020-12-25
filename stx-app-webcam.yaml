@@ -1,6 +1,6 @@
 appName: stx-webcam
 namespace: stx-app-webcam
-version: 1.0
+version: 1.0-1
 chart:
 - name: stx-webcam
   path: https://github.com/ChantYuCN/stx-app-webcam.git 
