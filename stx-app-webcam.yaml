@@ -4,7 +4,7 @@ version: 1.0
 chart:
 - name: stx-webcam
   path: https://github.com/ChantYuCN/stx-app-webcam.git 
-  subpath: ./webcam
+  subpath: ./webcamhtml
   label:
   waitLabelKey: deployment 
 chartGroup:
