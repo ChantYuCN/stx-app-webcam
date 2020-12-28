@@ -10,7 +10,7 @@ spec:
   ports:
   - port: 33123
     targetPort: 8081
-    nodePort: 30003
+    nodePort: 30213
   selector:
     app: stx-webcam
     release: {{ .Release.Name }}
